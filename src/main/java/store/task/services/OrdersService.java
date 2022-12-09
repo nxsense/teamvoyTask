@@ -8,4 +8,7 @@ import java.util.List;
 public interface OrdersService {
     List<OrderDTO> findAllByUserId(int id);
     OrderDTO resolveOrder(ShoppingCartDTO shoppingCartDTO);
+
+    List<OrderDTO> findAllOrders();
+    void delete(OrderDTO orderDTO);
 }

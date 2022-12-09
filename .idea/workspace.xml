@@ -4,43 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ed6e19-2282-4ad4-9be6-b38df502cbe7" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/jpa-buddy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="03ed6e19-2282-4ad4-9be6-b38df502cbe7" name="Changes" comment="initial">
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/config/DeletingUnpaidOrders.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/config/PasswordConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/GoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/OrdersController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/services/impl/UserDetailsServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/TeamvoyTaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/TeamvoyTaskApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/dto/AbstractDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/dto/AbstractDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/dto/GoodsDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/dto/GoodsDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/dto/OrderDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/dto/ShoppingCartDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/dto/ShoppingCartDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/dto/UserDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/AbstractEntity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/Good.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/ShoppingCart.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/AbstractMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/AbstractMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/GoodsMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/OrderMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/ShoppingCartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/ShoppingCartMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/repositories/GoodsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/repositories/GoodsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/repositories/OrderRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/repositories/OrderRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/repositories/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/repositories/RoleRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/repositories/ShoppingCartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/repositories/ShoppingCartRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/GoodsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/GoodsService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/OrdersService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/ShoppingCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/ShoppingCartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/impl/GoodServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/impl/GoodServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/impl/OrdersServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/impl/ShoppingCartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/impl/ShoppingCartServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,21 +68,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laptop/OneDrive/Рабочий стол/teamvoyTask/src/main/java/store/task&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;4d7857e87d550a9fd395ee8528812037&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Laptop/OneDrive/Рабочий стол/teamvoyTask/src/main/java/store/task",
+    "spring.configuration.checksum": "4d7857e87d550a9fd395ee8528812037"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Laptop\OneDrive\Рабочий стол\teamvoyTask\src\main\java\store\task" />
@@ -114,8 +100,16 @@
       <workItem from="1670505745361" duration="1173000" />
       <workItem from="1670513707997" duration="6135000" />
       <workItem from="1670531103495" duration="2035000" />
-      <workItem from="1670535667872" duration="7676000" />
+      <workItem from="1670535667872" duration="22137000" />
     </task>
+    <task id="LOCAL-00001" summary="initial">
+      <created>1670543629000</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1670543629000</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,5 +125,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="initial" />
+    <option name="LAST_COMMIT_MESSAGE" value="initial" />
   </component>
 </project>

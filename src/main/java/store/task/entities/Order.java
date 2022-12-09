@@ -40,7 +40,7 @@ public class Order extends AbstractEntity{
     private List<Good> goods;
 
     @Column(name = "creatingTime")
-    private LocalDateTime creatingTime;
+    private Long creatingTime;
 
     @Override
     public boolean equals(Object o) {

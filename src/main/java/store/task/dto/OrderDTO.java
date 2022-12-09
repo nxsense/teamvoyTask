@@ -17,5 +17,5 @@ public class OrderDTO extends AbstractDTO{
     private boolean completed;
     private boolean paid;
     private List<Integer> goodsId;
-    private LocalDateTime creatingTime;
+    private Long creatingTime;
 }
