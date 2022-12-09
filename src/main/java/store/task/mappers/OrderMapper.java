@@ -50,7 +50,7 @@ public class OrderMapper extends AbstractMapper<Order, OrderDTO>{
         for (Good good : source.getGoods()) {
             ids.add(good.getId());
         }
-        return Objects.isNull(source) || Objects.isNull(source.getId()) ? null : ids;
+        return ids;
     }
     private int getId(Order source) {
         return Objects.isNull(source) ? null : source.getUser().getId();

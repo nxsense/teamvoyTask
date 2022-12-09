@@ -32,7 +32,7 @@ public class ShoppingCartController {
     }
 
     @PutMapping(value = "addGoods")
-    public void addGoodsToCart(Authentication authentication, @RequestBody GoodsDTO goodsDTO, @RequestParam int quantity) {;
+    public void addGoodsToCart(Authentication authentication, @RequestBody GoodsDTO goodsDTO, @RequestParam int quantity) {
        shoppingCartService.addGoods(userMapper.toEntity(userService.findUserByEmail(authentication.getName())), goodsMapper.toEntity(goodsDTO), quantity);
     }
 }

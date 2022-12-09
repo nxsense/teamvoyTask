@@ -50,7 +50,7 @@ public class ShoppingCartMapper extends AbstractMapper<ShoppingCart, ShoppingCar
         for (Good good : source.getGoods()) {
             ids.add(good.getId());
         }
-        return Objects.isNull(source) || Objects.isNull(source.getId()) ? null : ids;
+        return ids;
     }
     private int getId(ShoppingCart source) {
         return Objects.isNull(source) ? null : source.getUser().getId();

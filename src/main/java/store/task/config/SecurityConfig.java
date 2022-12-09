@@ -12,6 +12,7 @@ import org.springframework.security.config.http.SessionCreationPolicy;
 @Configuration
 @EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
+    private final String ADMIN = "ROLE_ADMIN";
 
     @Bean
     @Override
@@ -27,9 +28,9 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .authorizeRequests()
                 .antMatchers(HttpMethod.GET, "/goods", "/shoppingCart/users-cart").permitAll()
-                .antMatchers(HttpMethod.POST).hasRole("ROLE_ADMIN")
-                .antMatchers(HttpMethod.PUT, "/orders/resolveOrder").hasRole("ROLE_ADMIN")
-                .antMatchers(HttpMethod.GET, "/orders/allUsersOrders").hasRole("ROLE_ADMIN")
+                .antMatchers(HttpMethod.POST).hasRole(ADMIN)
+                .antMatchers(HttpMethod.PUT, "/orders/resolveOrder").hasRole(ADMIN)
+                .antMatchers(HttpMethod.GET, "/orders/allUsersOrders").hasRole(ADMIN)
                 .antMatchers(HttpMethod.PUT, "/register").permitAll()
                 .and()
                 .formLogin()
@@ -37,7 +38,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .and()
                 .httpBasic()
                 .and()
-                .csrf().disable();;
+                .csrf().disable();
 
     }
 }
