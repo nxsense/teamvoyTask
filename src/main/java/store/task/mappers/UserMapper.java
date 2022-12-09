@@ -8,8 +8,8 @@ import store.task.entities.User;
 @Component
 public class UserMapper extends AbstractMapper<User, UserDTO>{
     @Autowired
-    UserMapper(Class<User> entityClass, Class<UserDTO> dtoClass) {
-        super(entityClass, dtoClass);
+    UserMapper() {
+        super(User.class, UserDTO.class);
     }
 }
 

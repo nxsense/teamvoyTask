@@ -1,6 +1,6 @@
 package store.task.entities;
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 import java.util.List;
@@ -25,7 +25,7 @@ public class User extends AbstractEntity{
     @Column(name = "password", nullable = false)
     private String password;
 
-    @ManyToMany(fetch = FetchType.EAGER)
+    @ManyToMany
     @JoinTable(name = "user_roles",
             joinColumns = {@JoinColumn(name = "user_id", referencedColumnName = "id")},
             inverseJoinColumns = {@JoinColumn(name = "role_id", referencedColumnName = "id")})

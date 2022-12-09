@@ -11,7 +11,7 @@ import store.task.services.ShoppingCartService;
 import store.task.services.UserService;
 
 @RestController
-@RequestMapping(name = "/shoppingCart")
+@RequestMapping(value = "/shoppingCart")
 public class ShoppingCartController {
     private final ShoppingCartService shoppingCartService;
     private final UserService userService;
@@ -25,7 +25,7 @@ public class ShoppingCartController {
         this.goodsMapper = goodsMapper;
     }
 
-    @GetMapping(name = "users-cart")
+    @GetMapping(value = "users-cart")
     public ShoppingCartDTO usersShoppingCart(Authentication authentication) {
         UserDTO userDTO = userService.findUserByEmail(authentication.getName());
         return shoppingCartService.findByUser(userMapper.toEntity(userDTO));
@@ -33,6 +33,6 @@ public class ShoppingCartController {
 
     @PutMapping(value = "addGoods")
     public void addGoodsToCart(Authentication authentication, @RequestBody GoodsDTO goodsDTO, @RequestParam int quantity) {
-       shoppingCartService.addGoods(userMapper.toEntity(userService.findUserByEmail(authentication.getName())), goodsMapper.toEntity(goodsDTO), quantity);
+        shoppingCartService.addGoods(userMapper.toEntity(userService.findUserByEmail(authentication.getName())), goodsMapper.toEntity(goodsDTO), quantity);
     }
 }

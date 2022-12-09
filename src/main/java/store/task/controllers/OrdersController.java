@@ -15,7 +15,7 @@ import store.task.services.UserService;
 import java.util.List;
 
 @RestController
-@RequestMapping(name = "/orders")
+@RequestMapping(value = "/orders")
 public class OrdersController {
     private final OrdersService ordersService;
     private final ShoppingCartService shoppingCartService;
@@ -29,13 +29,13 @@ public class OrdersController {
         this.userMapper = userMapper;
     }
 
-    @GetMapping(value="/allUsersOrders")
-    public List<OrderDTO> allOrders(Authentication authentication){
+    @GetMapping(value = "/allUsersOrders")
+    public List<OrderDTO> allOrders(Authentication authentication) {
         return ordersService.findAllByUserId(userService.findUserByEmail(authentication.getName()).getId());
     }
 
     @PutMapping(value = "/resolveOrder")
-    public OrderDTO resolveOrder(Authentication authentication){
+    public OrderDTO resolveOrder(Authentication authentication) {
         ShoppingCartDTO shoppingCartDTO = shoppingCartService.findByUser(userMapper.toEntity(userService.findUserByEmail(authentication.getName())));
         return ordersService.resolveOrder(shoppingCartDTO);
     }

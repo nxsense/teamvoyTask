@@ -4,28 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="03ed6e19-2282-4ad4-9be6-b38df502cbe7" name="Changes" comment="initial">
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/config/DeletingUnpaidOrders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/config/PasswordConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/config/SecurityConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/GoodsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/ShoppingCartController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/store/task/services/impl/UserDetailsServiceImpl.java" afterDir="false" />
+    <list default="true" id="03ed6e19-2282-4ad4-9be6-b38df502cbe7" name="Changes" comment="small fixes again">
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/teamvoyTask_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/dto/OrderDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/dto/OrderDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/TeamvoyTaskApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/TeamvoyTaskApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/config/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/controllers/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/controllers/ShoppingCartController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/ShoppingCartController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/controllers/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/controllers/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/AbstractEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/AbstractEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/Good.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/Good.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/ShoppingCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/ShoppingCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/entities/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/entities/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/GoodsMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/GoodsMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/OrderMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/OrderMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/ShoppingCartMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/ShoppingCartMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/repositories/ShoppingCartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/repositories/ShoppingCartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/repositories/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/repositories/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/OrdersService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/OrdersService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/ShoppingCartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/ShoppingCartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/impl/OrdersServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/impl/OrdersServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/impl/ShoppingCartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/impl/ShoppingCartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/services/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/services/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/store/task/mappers/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/store/task/mappers/UserMapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +37,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -70,12 +71,20 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
     "last_opened_file_path": "C:/Users/Laptop/OneDrive/Рабочий стол/teamvoyTask/src/main/java/store/task",
+    "project.structure.last.edited": "Artifacts",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
     "spring.configuration.checksum": "4d7857e87d550a9fd395ee8528812037"
   },
   "keyToStringList": {
@@ -89,6 +98,42 @@
       <recent name="C:\Users\Laptop\OneDrive\Рабочий стол\teamvoyTask\src\main\java\store\task" />
     </key>
   </component>
+  <component name="RunManager" selected="HTTP Request.generated-requests | #18">
+    <configuration name="generated-requests | #15" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="15" requestIdentifier="#15" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #16" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="16" requestIdentifier="#16" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #17" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="17" requestIdentifier="#17" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #18" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="18" requestIdentifier="#18" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="TeamvoyTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="teamvoyTask" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="store.task.TeamvoyTaskApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #18" />
+        <item itemvalue="HTTP Request.generated-requests | #17" />
+        <item itemvalue="HTTP Request.generated-requests | #16" />
+        <item itemvalue="HTTP Request.generated-requests | #15" />
+        <item itemvalue="Spring Boot.TeamvoyTaskApplication" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -100,7 +145,7 @@
       <workItem from="1670505745361" duration="1173000" />
       <workItem from="1670513707997" duration="6135000" />
       <workItem from="1670531103495" duration="2035000" />
-      <workItem from="1670535667872" duration="22137000" />
+      <workItem from="1670535667872" duration="32401000" />
     </task>
     <task id="LOCAL-00001" summary="initial">
       <created>1670543629000</created>
@@ -109,7 +154,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670543629000</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added services, controllers and configuration">
+      <created>1670585795683</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1670585795683</updated>
+    </task>
+    <task id="LOCAL-00003" summary="small fixes">
+      <created>1670586048258</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1670586048258</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +187,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial" />
+    <MESSAGE value="added services, controllers and configuration" />
+    <MESSAGE value="small fixes" />
+    <MESSAGE value="small fixes again" />
+    <option name="LAST_COMMIT_MESSAGE" value="small fixes again" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.MappingException" package="org.hibernate" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

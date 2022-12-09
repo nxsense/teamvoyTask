@@ -1,7 +1,7 @@
 package store.task.entities;
 
 
-import jakarta.persistence.*;
+import javax.persistence.*;
 import lombok.*;
 
 import java.time.LocalDateTime;

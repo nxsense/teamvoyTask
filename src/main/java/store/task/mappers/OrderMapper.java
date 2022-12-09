@@ -21,8 +21,8 @@ public class OrderMapper extends AbstractMapper<Order, OrderDTO>{
     private final GoodsRepository goodsRepository;
     private final UserRepository userRepository;
     @Autowired
-    OrderMapper(Class<Order> entityClass, Class<OrderDTO> dtoClass, ModelMapper mapper, GoodsRepository goodsRepository, UserRepository userRepository) {
-        super(entityClass, dtoClass);
+    OrderMapper(ModelMapper mapper, GoodsRepository goodsRepository, UserRepository userRepository) {
+        super(Order.class, OrderDTO.class);
         this.mapper = mapper;
         this.goodsRepository = goodsRepository;
         this.userRepository = userRepository;

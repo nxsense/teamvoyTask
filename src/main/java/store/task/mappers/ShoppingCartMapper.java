@@ -21,8 +21,8 @@ public class ShoppingCartMapper extends AbstractMapper<ShoppingCart, ShoppingCar
     private final GoodsRepository goodsRepository;
     private final UserRepository userRepository;
     @Autowired
-    ShoppingCartMapper(Class<ShoppingCart> entityClass, Class<ShoppingCartDTO> dtoClass, ModelMapper mapper, GoodsRepository goodsRepository, UserRepository userRepository) {
-        super(entityClass, dtoClass);
+    ShoppingCartMapper(ModelMapper mapper, GoodsRepository goodsRepository, UserRepository userRepository) {
+        super(ShoppingCart.class, ShoppingCartDTO.class);
         this.mapper = mapper;
         this.goodsRepository = goodsRepository;
         this.userRepository = userRepository;

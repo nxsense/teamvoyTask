@@ -1,13 +1,10 @@
 package store.task.entities;
 
-import jakarta.persistence.GeneratedValue;
-import jakarta.persistence.GenerationType;
-import jakarta.persistence.Id;
-import jakarta.persistence.MappedSuperclass;
 import lombok.AllArgsConstructor;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+import javax.persistence.*;
 import java.util.Objects;
 
 @MappedSuperclass
@@ -15,9 +12,10 @@ import java.util.Objects;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AbstractEntity {
-    int id;
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    int id;
+
     public int getId() {
         return id;
     }

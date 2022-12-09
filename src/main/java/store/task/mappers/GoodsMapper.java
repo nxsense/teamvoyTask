@@ -8,7 +8,7 @@ import store.task.entities.Good;
 @Component
 public class GoodsMapper extends AbstractMapper<Good, GoodsDTO>{
      @Autowired
-    GoodsMapper(Class<Good> entityClass, Class<GoodsDTO> dtoClass) {
-        super(entityClass, dtoClass);
+    GoodsMapper() {
+        super(Good.class, GoodsDTO.class);
     }
 }
